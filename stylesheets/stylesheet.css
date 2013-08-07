@@ -12,7 +12,7 @@ body {
 
 .container {
   width: 90%;
-  max-width: 600px;
+  max-width: 800px;
   margin: 0 auto;
 }
 
@@ -244,4 +244,30 @@ a {
 
 .cf {
   zoom:1;
+}
+
+#corner-tag {
+    display: block;
+    height: 213px;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 213px;
+    z-index: 300;
+}
+#corner-tag a {
+    background: url("../images/cg-corner-tag.png") no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 213px;
+    overflow: hidden;
+    position: relative;
+    text-decoration: none;
+    text-indent: -9999px;
+    width: 213px;
+}
+#corner-tag a:hover, #corner-tag a:active {
+    background-position: 0 -213px;
 }

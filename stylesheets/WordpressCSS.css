@@ -1,0 +1,63 @@
+/*
+Welcome to Custom CSS!
+
+CSS (Cascading Style Sheets) is a kind of code that tells the browser how
+to render a web page. You may delete these comments and get started with
+your customizations.
+
+By default, your stylesheet will be loaded after the theme stylesheets,
+which means that your rules can take precedence and override the theme CSS
+rules. Just write here what you want to change, you don't need to copy all
+your theme's stylesheet content.
+
+If you need any further help, ask in the CSS Customization forum.
+*/
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #151515 url("../images/bkg.png") 0 0;
+  color: #eaeaea;
+  font: 16px;
+  line-height: 1.5;
+  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+}
+
+/* General & 'Reset' Stuff */
+
+.container {
+  width: 90%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+
+#corner-tag {
+    display: block;
+    height: 213px;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 213px;
+    z-index: 300;
+}
+#corner-tag a {
+    background: url("http://cryptogeddon.files.wordpress.com/2013/06/cg-corner-tag.png") no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 213px;
+    overflow: hidden;
+    position: relative;
+    text-decoration: none;
+    text-indent: -9999px;
+    width: 213px;
+}
+#corner-tag a:hover, #corner-tag a:active {
+    background-position: 0 -213px;
+}
+
+.page-template-showcase-php section.recent-posts {
+display: none;
+}
