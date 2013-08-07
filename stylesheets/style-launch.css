@@ -1,11 +1,13 @@
 body {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   background: #000000;
   font: 16px;
   line-height: 1.5;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  width: 800px;
   max-width: 800px;
+  text-align: center;
 }
 
 
