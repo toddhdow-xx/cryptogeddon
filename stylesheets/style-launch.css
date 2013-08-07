@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #000000;
+  font: 16px;
+  line-height: 1.5;
+  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  max-width: 800px;
+}
+
+
+h2 {
+  font-size: 18px;
+  font-weight: 300;
+  color: #00cc33;
+  font-family: Terminal, monospace;
+}
+
+h4 {
+  background: rgba(0, 0, 0, 0);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  padding: 10px;
+  font-size: 14px;
+  color: #000000;
+  border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  text-wrap: normal;
+  overflow: auto;
+  overflow-y: hidden;
+}
+
+
+/* Main Content
+*/
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  color: #FFFFFF;
+  letter-spacing: -0.03em;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
+               0 0 5px rgba(181, 232, 83, 0.1),
+               0 0 10px rgba(181, 232, 83, 0.1);
+}
+
+/* Links
+   a, a:hover, a:visited
+*/
+
+a {
+  color: #00CC33;
+  text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
+}
