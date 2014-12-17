@@ -12,6 +12,19 @@ body {
 }
 
 
+p {
+  background: rgba(0, 0, 0, 0);
+  font-size: 12px;
+  color: #000000;
+  border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  text-wrap: normal;
+  overflow: auto;
+  overflow-y: hidden;
+}
+
+
 h2 {
   font-size: 18px;
   font-weight: 300;
